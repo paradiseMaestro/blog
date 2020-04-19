@@ -155,6 +155,7 @@ select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    border: none;
   }
 
 .title-name{
@@ -199,11 +200,11 @@ select {
     }
     }
     .art_item-2{
-        background-image: url('/images/dest/build2.jpg');
+        background-image: url('../images/dest/build2.jpg');
 
     }
     .art_item-1{
-        background-image: url('/images/dest/build1.jpg');
+        background-image: url('../images/dest/build1.jpg');
     }
     .art_item{
         position: relative;
@@ -238,6 +239,9 @@ select {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.blog{
+    margin-bottom: 30px;
 }
 
 
