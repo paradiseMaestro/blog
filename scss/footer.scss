@@ -6,6 +6,7 @@
     // background: linear-gradient(180deg, rgba(253, 253, 254, 0.04) 52.32%, rgba(253, 253, 254, 0.92) 71.04%, #FDFDFE 92.44%);
     h2{
         margin-top: 20px;
+        text-align: left;
         margin-bottom: auto;
 }
 }
@@ -116,7 +117,6 @@ font-weight: 400;
         font-size: 8px;
         font-weight: 400;
     }
-
 }
 .content-footer{
     max-width: 1200px;
@@ -343,4 +343,11 @@ select {
         justify-content: center;
         flex-wrap: wrap;
     }
+}
+
+.bottom_footer-cont{
+    justify-content: flex-start;
+}
+.info_map .client__text {
+    text-align: left !important;
 }
